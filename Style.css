@@ -1,0 +1,161 @@
+/* Estilo para body */
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+/* Estilos para el header*/
+header {
+    background-color: #80b2ec;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilos para foto principal*/
+#mascotas {
+    border-radius: 3%;
+    width: 100%;
+}
+
+/* Estilos para el título */
+#titulo {
+    color: #80B2EC;
+    font-size: 2em;
+}
+
+/* Estilos para section */
+section {
+    text-align: center;
+}
+
+/* Estilos para article*/
+article {
+    background-color: #F0F8FF;
+    padding: 2.5em;
+}
+
+/* Estilos para el primer párrafo del article*/
+article p:first-of-type {
+    padding-top: 3%;
+}
+
+/* Estilos para listas ul */
+article ul {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Estilos para el div de las imágenes */
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilos para la barra lateral */
+aside {
+    margin-top: 10vh;
+    text-align: left;
+    background-color: #F0F8FF;
+    padding: 2%
+}
+
+/* Estilos para el h2 del article */
+article h2 {
+    text-align: center;
+}
+
+/* Estilos para los títulos del aside */
+aside h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+/* Estilos generales para p */
+p {
+    padding-bottom: 3%;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #80b2ec;
+    text-align: center;
+    padding: 1%;
+}
+
+/* Estilos para las imágenes */
+img {
+    width: 60%;
+    margin-bottom: 3%;
+    border-radius: 3%;
+}
+
+/* FORMATO PARA TABLET */
+@media only screen and (min-width: 768px) {
+
+    /* Ajustes para la galería */
+    #galeria {
+        padding-bottom: 3%;
+    }
+
+    /* Ajustes para las imágenes de la galería */
+    #photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #photos img {
+        width: 35vw;
+        margin: 7px;
+    }
+
+    /* Ajustes para el aside */
+    aside ul {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+
+    /* Ajustes para el primer párrafo dentro de article */
+    article p:first-of-type {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+/* FORMATO PARA PANTALLA DE ESCRITORIO */
+@media only screen and (min-width: 1024px) {
+
+    /* Ajustes para la id del primer contenido */
+    #quees {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    /* Ajustes para ul dentro de aside */
+    aside ul {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /* Ajustes para las imágenes de la galería */
+    #photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Ajustes para las imágenes */
+    #photos img {
+        width: 25vw;
+        margin: 7px;
+    }
+}
